@@ -7,6 +7,7 @@ import Home from "./Home";
 import Order from "./Order";
 import About from "./About";
 import Contact from "./contact";
+import Grandpa from "./Grandpa/Grandpa";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>,
+      },
+      {
+        path: "/grandpa",
+        element: <Grandpa></Grandpa>,
       },
       {
         path: "/contact",
